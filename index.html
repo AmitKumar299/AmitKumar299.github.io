@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Amit Kumar's Portfolio - Python Developer | ML Projects | Web Dev">
+  <meta name="keywords" content="Amit Kumar, Python, Machine Learning, Web Developer, Portfolio, GitHub">
+  <title>Amit Kumar | Portfolio</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/111276332" />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+  <style>
+    /* (Same CSS as Pankaj's but personalized for Amit) */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Fira Code', monospace;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #0f0f0f;
+      color: #f0f0f0;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      padding: 40px;
+      text-align: center;
+      background: #111;
+      animation: fadeIn 2s ease-in-out;
+    }
+    header h1 {
+      font-size: 3em;
+      color: #00f7ff;
+    }
+    header p {
+      font-size: 1.2em;
+      color: #888;
+    }
+    section {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px 20px;
+      animation: fadeUp 1s ease-out;
+      scroll-margin-top: 80px;
+    }
+    h2 {
+      color: #00f7ff;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #00f7ff;
+      text-decoration: none;
+    }
+    .socials a {
+      margin-right: 15px;
+      display: inline-block;
+    }
+    .project-box {
+      background: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px #00f7ff20;
+      transition: transform 0.3s ease;
+    }
+    .project-box:hover {
+      transform: translateY(-5px);
+    }
+    .gif-section {
+      text-align: center;
+      margin-top: 40px;
+    }
+    .gif-section img {
+      max-width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #00f7ff55;
+    }
+    .nav-section {
+      text-align: center;
+      margin-top: 60px;
+    }
+    .nav-section a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 25px;
+      background: linear-gradient(145deg, #0f0f0f, #1a1a1a);
+      color: #00f7ff;
+      border-radius: 50px;
+      box-shadow: 0 4px 10px #00f7ff50;
+      transition: all 0.3s ease-in-out;
+    }
+    .nav-section a:hover {
+      background: #00f7ff;
+      color: #0f0f0f;
+      box-shadow: 0 0 20px #00f7ff;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 50px;
+    }
+    @keyframes fadeIn {
+      from {opacity: 0;} to {opacity: 1;}
+    }
+    @keyframes fadeUp {
+      from {opacity: 0; transform: translateY(20px);} to {opacity: 1; transform: translateY(0);}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Hi, I'm Amit Kumar</h1>
+    <p>🐍 Python Developer | 🧠 ML Explorer | 💻 Web Developer</p>
+  </header>
+
+  <nav class="nav-section">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="gif-section">
+    <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif" />
+  </section>
+
+  <section id="about">
+    <h2>👨‍💻 About Me</h2>
+    <p>
+      I’m a Python developer skilled from basic to advanced level. I enjoy creating web applications, ML models and building intelligent systems that solve real-world problems.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>🧠 Skills & Tools</h2>
+    <p>Languages: Python, HTML, CSS, JavaScript</p>
+    <p>Tools: GitHub, Google Colab, VS Code, Flask</p>
+  </section>
+
+  <section id="projects">
+    <h2>📂 Featured Projects</h2>
+    <div class="project-box">
+      <p><strong>Car Price Prediction</strong> – ML model to estimate car prices using various input features.</p>
+    </div>
+    <div class="project-box">
+      <p><strong>Heart Attack Risk Predictor</strong> – Predicts likelihood of heart attacks using health data.</p>
+    </div>
+    <div class="project-box">
+      <p><strong>Video Annotation with YOLOv8</strong> – Object detection and annotation system using Flask & OpenCV.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>🌐 Connect with Me</h2>
+    <div class="socials">
+      <a href="https://github.com/AmitKumar299" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/amit-kumar-a35167353" target="_blank">LinkedIn</a>
+      <a href="mailto:amit@example.com">Email</a>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Amit Kumar. Crafted with 💙 using HTML & CSS.
+  </footer>
+</body>
+</html>
